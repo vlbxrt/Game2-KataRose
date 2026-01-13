@@ -172,7 +172,7 @@ final class GildedRose
         private array $items
     ) {
         $this->factory = new ItemUpdaterFactory();
-    }
+    
 
     public function updateQuality(): void
     {
